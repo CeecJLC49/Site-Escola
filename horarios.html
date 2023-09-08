@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style2.css">
+      <title>CEPMS - Horários</title>
+
+      <style>
+        body::before {
+        content: "";
+        position: fixed; /* Fixar o pseudo-elemento */
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1; /* Posicionar atrás do conteúdo */
+
+        background-image:url('imgs/colegio cepms.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+      </style>
+      <link rel="icon" type="image/png" sizes="32x32" href="imgs/lococolegio.png">
+  </head>
+  <body>
+      <div class="conteiner-fluid">
+          <div class="row">
+              <nav class="navbar navbar-expand-lg fixed-top navbaredit">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html"><strong><img src="imgs/lococolegio.png" alt="Colegio Estadual Povoado Mato Seco" width="50px"></strong></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="index.html"><strong class="strongedit">Inicio</strong></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="nav-link" href="projetos.html"><strong class="strongedit">Projetos</strong></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="nav-link" href="calendario.html"><strong class="strongedit">Calendário</strong></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="nav-link" href="turmas.html"><strong class="strongedit">Turmas</strong></a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="nav-link" href="#"><strong class="pactive">Horários</strong></a>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+          <div class="row rowhorarios">
+              <div class="col-lg-12 d-flex justify-content-center">
+                  <h1><span class="badge badedit">Ensino Fundamental</span></h1>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-2"></div>
+              <div class="col-lg-8">
+                  <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              <p>6º Ano Turma "A"</p>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>Aula</th>
+                                      <th>Horários</th>
+                                      <th>Seg-Feira</th>
+                                      <th>Ter-Feira</th>
+                                      <th>Qua-Feira</th>
+                                      <th>Qui-Feira</th>
+                                      <th>Sex-Feira</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>1</td>
+                                      <td>7:00 às <br> 7:50</td>
+                                      <td>LÍNGUA <br> PORTUGUESA <br> (ALETICIA)</td>
+                                      <td>MATEMÁTICA <br>(LUCIO)</td>
+                                      <td>CIÊNCIAS DA <br> NATUREZA <br>(ALLAN)</td>
+                                      <td>CIÊNCIAS DA <br>NATUREZA <br>(ALLAN)</td>
+                                      <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                    </tr>
+                                    <tr>
+                                      <td>2</td>
+                                      <td>7:51 à <br>8:41</td>
+                                      <td>GEOGRAFIA <br>(ROSANA)</td>
+                                      <td>ARTE <br>(ROSANA)</td>
+                                      <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                      <td>GEOGRAFIA <br>(ROSANA)</td>
+                                      <td>MATEMÁTICA <br>(LUCIO)</td>
+                                    </tr>
+                                    <tr>
+                                      <td>3</td>
+                                      <td>8:42 às <br>9:32</td>
+                                      <td>MATEMÁTICA <br>(LUCIO)</td>
+                                      <td>REDAÇÃO <br>(ALLAN)</td>
+                                      <td>MATEMÁTICA <br>(LUCIO)</td>
+                                      <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                      <td>ESTUDO <br>ORIENTADO <br>(ALLAN)</td>
+                                    </tr>
+                                    <tr>
+                                      <td>4</td>
+                                      <td>9:46 às <br>10:36</td>
+                                      <td>CIÊNCIAS DA <br>NATUREZA <br>(ALLAN)</td>
+                                      <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                      <td>HISTÓRIA <br>(ROSANA)</td>
+                                      <td>MATEMÁTICA <br>(LUCIO)</td>
+                                      <td>LÍNGUA <br>INGLESA <br>(ALETICIA)</td>
+                                    </tr>
+                                    <tr>
+                                      <td>5</td>
+                                      <td>10:37 às <br> 11:27</td>
+                                      <td>EDUCAÇÃO <br>FÍSICA <br>(ALLAN)</td>
+                                      <td>MATEMÁTICA <br>FINANCEIRA <br>(LUCIO)</td>
+                                      <td>MATEMÁTICA <br>(LUCIO)</td>
+                                      <td>LÍNGUA <br>INGLESA <br>(ALETICIA)</td>
+                                      <td>GEOGRAFIA <br>(ROSANA)</td>
+                                    </tr>
+                                    <tr>
+                                      <td>6</td>
+                                      <td>11:28 às <br>12:15</td>
+                                      <td>HISTÓRIA <br>(ROSANA)</td>
+                                      <td></td>
+                                      <td>HISTÓRIA <br>(ROSANA)</td>
+                                      <td>EDUCAÇÃO <br>FÍSICA <br>(ALLAN)</td>
+                                      <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                          </div>
+                          </div>
+                        </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <p>7º Ano Turma "A"</p>
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="table-responsive">
+                              <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Aula</th>
+                                        <th>Horários</th>
+                                        <th>Seg-Feira</th>
+                                        <th>Ter-Feira</th>
+                                        <th>Qua-Feira</th>
+                                        <th>Qui-Feira</th>
+                                        <th>Sex-Feira</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>7:00 às <br>7:51</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                        <td>EDUCAÇÃO <br>FÍSICA <br>(ALLAN)</td>
+                                        <td>LÍNGUA <br> PORTUGUESA <br>(ALETICIA)</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>7:51 às <br>8:41</td>
+                                        <td>CIENCIAS DA <br>NATUREZA <br>(ALLAN)</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                        <td>REDAÇÃO <br>(ALLAN)</td>
+                                        <td>LÍNGUA <br> INGLESA <br>(ALETICIA)</td>
+                                        <td>HISTÓRIA <br>(ROSANA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>8:42 às <br>9:32</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                        <td>HISTÓRIA <br>(ROSANA)</td>
+                                        <td>GEOGRAFIA <br>(ROSANA)</td>
+                                        <td>GEOGRAFIA <br>(ROSANA)</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>9:46 às <br>10:36</td>
+                                        <td>HISTÓRIA <br>(ROSANA)</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                        <td>MATEMÁTICA <br>FINANCEIRA <br>(LUCIO)</td>
+                                        <td>CIÊNCIAS DA <br>NATUREZA <br>(ALLAN)</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>10:37 às <br> 11:27</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                        <td>ENSINO <br>RELIGIOSO <br>(ALLAN)</td>
+                                        <td>CIÊNCIAS DA <br> NATUREZA <br>(ALLAN)</td>
+                                        <td>ARTES <br>(ROSANA)</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>11:28 às <br>12:15</td>
+                                        <td>EDUCAÇÃO <br>FÍSICA <br>(ALLAN)</td>
+                                        <td>LÍNGUA <br>INGLESA <br>(ALETICIA)</td>
+                                        <td></td>
+                                        <td>GEOGRAFIA <br>(ROSANA)</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <p>8º Ano Turma "A"</p>
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="table-responsive">
+                              <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Aula</th>
+                                        <th>Horários</th>
+                                        <th>Seg-Feira</th>
+                                        <th>Ter-Feira</th>
+                                        <th>Qua-Feira</th>
+                                        <th>Qui-Feira</th>
+                                        <th>Sex-Feira</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>7:00 às <br>7:51</td>
+                                        <td>HISTÓRIA <br>(ROSANA)</td>
+                                        <td>ARTES <br>(ROSANA)</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                        <td>HISTÓRIA<br>(ROSANA)</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>7:51 às <br>8:41</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                        <td>EDUCAÇÃO <br>FÍSICA <br>(ALLAN)</td>
+                                        <td>HISTÓRIA <br>(ROSANA)</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>8:42 às <br>9:32</td>
+                                        <td>CIÊNCIAS DA <br>NATUREZA <br>(ALLAN)</td>
+                                        <td>MATEMÁTICA <br> (LUCIO)</td>
+                                        <td>REDAÇÃO <br> (ALLAN)</td>
+                                        <td>CIÊNCIAS DA <br> NATUREZA <br> (ALLAN)</td>
+                                        <td>GEOGRAFIA <br>(ROSANA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>9:46 às <br>10:36</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                        <td>GEOGRAFIA <br>(ROSANA)</td>
+                                        <td>LÍNGUA <br>INGLESA <br>(ALETICIA)</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                        <td>ESTUDO <br>ORIENTADO <br>(ALLAN)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>10:37 às <br> 11:27</td>
+                                        <td>LÍNGUA <br>INGLESA <br>(ALETICIA)</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                        <td>GEOGRAFIA <br>(ROSANA)</td>
+                                        <td>MATEMÁTICA <br>FINANCEIRA <br>(LUCIO)</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>11:28 às <br>12:15</td>
+                                        <td>MATEMÁTICA <br>(LUCIO)</td>
+                                        <td>EDUCAÇÃO <br>FÍSICA <br>(ALLAN)</td>
+                                        <td>LÍNGUA <br>PORTUGUESA <br>(ALETICIA)</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <p>9º Ano Turma "A"</p>
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                      <tr>
+                                          <th>Aula</th>
+                                          <th>Horários</th>
+                                          <th>Seg-Feira</th>
+                                          <th>Ter-Feira</th>
+                                          <th>Qua-Feira</th>
+                                          <th>Qui-Feira</th>
+                                          <th>Sex-Feira</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td>1</td>
+                                          <td>7:00 às <br>7:51</td>
+                                          <td>CIÊNCIAS DA <br>NATUREZA <br>(ALLAN)</td>
+                                          <td>LÍNGUA <br>PORTUGUESA<br>(ALETICIA)</td>
+                                          <td>HISTÓRIA<br>(ROSANA)</td>
+                                          <td>LÍNGUA<br>PORTUGUESA<br>(ALETICIA)</td>
+                                          <td>GEOGRAFIA<br>(ROSANA)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>2</td>
+                                          <td>7:51 às <br>8:41</td>
+                                          <td>MATEMÁTICA<br>(LUCIO)</td>
+                                          <td>MATEMÁTICA<br>(LUCIO)</td>
+                                          <td>MATEMÁTICA<br>(LUCIO)</td>
+                                          <td>EDUCAÇÃO<br>FÍSICA<br>(ALLAN)</td>
+                                          <td>CIÊNCIAS DA<br>NATUREZA<br>(ALLAN)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>3</td>
+                                          <td>8:42 às <br>9:32</td>
+                                          <td>HISTÓRIA<br>(ROSANA)</td>
+                                          <td>LÍNGUA<br>INGLESA<br>(ALETICIA)</td>
+                                          <td>LÍNGUA<br>PORTUGUESA<br>(ALETICIA)</td>
+                                          <td>MATEMÁTICA</td></td>
+                                          <td>MATEMÁTICA<br>(LUCIO)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>4</td>
+                                          <td>9:46 às <br>10:36</td>
+                                          <td>LÍNGUA<br>PORTUGUESA<br>(ALETICIA)</td>
+                                          <td>NOVO<br>ENSINO<br>MÉDIO<br>(ALLAN)</td>
+                                          <td>CIÊNCIAS DA <br>NATUREZA<br>(ALLAN)</td>
+                                          <td>GEOGRAFIA<br>(ROSANA)</td>
+                                          <td> HISTÓRIA<br>(ROSANA)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>5</td>
+                                          <td>10:37 às <br> 11:27</td>
+                                          <td>GEOGRAFIA<br>(ROSANA)</td>
+                                          <td>ARTES <br>(ROSANA)</td>
+                                          <td>LÍNGUA<br>INGLESA<br>(ALETICIA)</td>
+                                          <td>ESTUDO<br>ORIENTADO<br>(ALLAN)</td>
+                                          <td>EDUCAÇÃO<br>FÍSICA<br>(ALLAN)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>6</td>
+                                          <td>11:28 às <br>12:15</td>
+                                          <td>LÍNGUA<br>PORTUGUESA<br>(ALETICIA)</td>
+                                          <td>MATEMÁTICA<br>(LUCIO)</td>
+                                          <td></td>
+                                          <td>MATEMÁTICA<br>FINANCEIRA<br>(LUCIO)</td>
+                                          <td></td>
+                                      </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="col-lg-2"></div>
+          </div>
+          <div class="row" style="margin-top: 20px;">
+              <div class="col-lg-12 d-flex justify-content-center">
+                  <h1><span class="badge badedit">Ensino Médio</span></h1>
+              </div>
+          </div>
+          <div class="row" style=" margin-bottom: 100px;">
+              <div class="col-lg-2"></div>
+              <div class="col-lg-8">
+                  <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              <p>1ª Série Turma "A"</p>
+                            </button>
+                          </h2>
+                          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Aula</th>
+                                            <th>Horários</th>
+                                            <th>Seg-Feira</th>
+                                            <th>Ter-Feira</th>
+                                            <th>Qua-Feira</th>
+                                            <th>Qui-Feira</th>
+                                            <th>Sex-Feira</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>7:00 às <br>7:51</td>
+                                            <td>MATEMÁTICA <br>(IARA)</td>
+                                            <td>MATEMÁTICA <br>(IARA)</td>
+                                            <td>FÍSICA <br>(IARA)</td>
+                                            <td>FÍSICA <br>(IARA)</td>
+                                            <td>ARTES<br>(IARA)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>7:51 às <br>8:41</td>
+                                            <td>LÍNGUA<br>PORTUGUESA<br>(IARA)</td>
+                                            <td>LÍNGUA EST.<br>MORERNA-<br>INGLÊS<br>(IARA)</td>
+                                            <td>HISTÓRIA<br>(IARA)</td>
+                                            <td>LÍNGUA<br>PORTUGUESA<br>(IARA)</td>
+                                            <td>PROJETO DE<br>VIDA<br>(IARA)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>8:42 às <br>9:32</td>
+                                            <td>BIOLOGIA<br>(IARA)</td>
+                                            <td>EDUCAÇÃO<br>FÍSICA<br>(IARA)</td>
+                                            <td>MATEMÁTICA<br>(IARA)</td>
+                                            <td>FILOSOFIA<br>(IARA)</td>
+                                            <td>HORTA<br>ORGANICA<br>(IARA)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>9:46 às <br>10:36</td>
+                                            <td>QUÍMICA<br>(IARA)</td>
+                                            <td>LÍNGUA<br>PORTUGUESA<br>(IARA)</td>
+                                            <td>BIOLOGIA<br>(IARA)</td>
+                                            <td>QUÍMICA<br>(IARA)</td>
+                                            <td>GEOGRAFIA<br>(IARA)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>10:37 às <br> 11:27</td>
+                                            <td>SOCIOLOGIA<br>(IARA)</td>
+                                            <td>GEOGRAFIA<br>(IARA)</td>
+                                            <td>LÍNGUA<br>PORTUGUESA<br>(IARA)</td>
+                                            <td>MATEMÁTICA<br>(IARA)</td>
+                                            <td>HISTÓRIA<br>(IARA)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>11:28 às <br>12:15</td>
+                                            <td>CURSO FIC<br>(IARA)</td>
+                                            <td>CURSO FIC<br>(IARA)</td>
+                                            <td>CURSO FIC<br>(IARA)</td>
+                                            <td>CURSO FIC<br>(IARA)</td>
+                                            <td>CURSO FIC<br>(IARA)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                              <p>2ª Série Turma "A"</p>
+                          </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="table-responsive">
+                              <table class="table">
+                                  <thead>
+                                      <tr>
+                                          <th>Aula</th>
+                                          <th>Horários</th>
+                                          <th>Seg-Feira</th>
+                                          <th>Ter-Feira</th>
+                                          <th>Qua-Feira</th>
+                                          <th>Qui-Feira</th>
+                                          <th>Sex-Feira</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td>1</td>
+                                          <td>7:00 às <br>7:51</td>
+                                          <td>LÍNGUA <br>PORTUGUESA<br>(RAQUEL)</td>
+                                          <td>BIOLOGIA<br>(RAQUEL)</td>
+                                          <td>LÍNGUA<br>PORTUGUESA<br>(RAQUEL)</td>
+                                          <td>TRILHA DE <br>APROFUNDAMENTO<br> INTEGRADO DE CNT/LGG:<br> COMER E SE<br> EXERCITAR <br>É SÓ COMEÇAR! <br>(RAQUEL)</td>
+                                          <td>TRILHA DE <br>APROFUNDAMENTO<br> INTEGRADO DE CNT/LGG:<br> COMER E SE<br> EXERCITAR <br>É SÓ COMEÇAR! <br>(RAQUEL)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>2</td>
+                                          <td>7:51 às <br>8:41</td>
+                                          <td>MATEMÁTICA <br>(RAQUEL)</td>
+                                          <td>LÍNGUA <br>PORTUGUESA<br>(RAQUEL)</td>
+                                          <td>MATEMÁTICA<br>(RAQUEL)</td>
+                                          <td>TRILHA DE <br>APROFUNDAMENTO<br> INTEGRADO DE CNT/LGG:<br> COMER E SE<br> EXERCITAR <br>É SÓ COMEÇAR! <br>(RAQUEL)</td>
+                                          <td>TRILHA DE <br>APROFUNDAMENTO<br> INTEGRADO DE CNT/LGG:<br> COMER E SE<br> EXERCITAR <br>É SÓ COMEÇAR! <br>(RAQUEL)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>3</td>
+                                          <td>8:42 às <br>9:32</td>
+                                          <td>QUÍMICA<br>(RAQUEL)</td>
+                                          <td>MATEMÁTICA<br>(RAQUEL)</td>
+                                          <td>LÍNGUA<br>PORTUGUESA<br>(RAQUEL)</td>
+                                          <td>PROJETO DE <br>VIDA<br>(RAQUEL)</td>
+                                          <td>TRILHA DE <br>APROFUNDAMENTO<br> INTEGRADO DE CNT/LGG:<br> COMER E SE<br> EXERCITAR <br>É SÓ COMEÇAR! <br>(RAQUEL)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>4</td>
+                                          <td>9:46 às <br>10:36</td>
+                                          <td>GEOGRAFIA<br>(RAQUEL)</td>
+                                          <td>GEOGRAFIA<br>(RAQUEL)</td>
+                                          <td>FÍSICA<br>(RAQUEL)</td>
+                                          <td>COPERATIVISMO<br>(RAQUEL
+                                            )</td>
+                                          <td>TRILHA DE <br>APROFUNDAMENTO<br> INTEGRADO DE CNT/LGG:<br> COMER E SE<br> EXERCITAR <br>É SÓ COMEÇAR! <br>(RAQUEL)</td>
+                                      </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <p>3ª Série Turma "A"</p>
+                          </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="table-responsive">
+                              <table class="table">
+                                  <thead>
+                                      <tr>
+                                          <th>Aula</th>
+                                          <th>Horários</th>
+                                          <th>Seg-Feira</th>
+                                          <th>Ter-Feira</th>
+                                          <th>Qua-Feira</th>
+                                          <th>Qui-Feira</th>
+                                          <th>Sex-Feira</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td>1</td>
+                                          <td>7:00 às <br>7:51</td>
+                                          <td>BIOLOGIA<br>(MARIA)</td>
+                                          <td>LÍNGUA<br>PORTUGUESA<br>(MARIA)</td>
+                                          <td>MATEMÁTICA<br>(MARIA)</td>
+                                          <td>FÍSICA<br>(MARIA)</td>
+                                          <td>QUÍMICA<br>(MARIA)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>2</td>
+                                          <td>7:51 às <br>8:41</td>
+                                          <td>LÍNGUA<br>PORTUGUESA(MARIA)</td>
+                                          <td>MATEMÁTICA<br>(MARIA)</td>
+                                          <td>LÍNGUA<br>PORTUGUESA<br>(MARIA)</td>
+                                          <td>PROJETO DE<br>VIDA<br>(MARIA)</td>
+                                          <td>HISTÓRIA<br>(MARIA)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>3</td>
+                                          <td>8:42 às <br>9:32</td>
+                                          <td>HISTÓRIA<br>(MARIA)</td>
+                                          <td>INTRODUÇÃO AO<br>MUNDO DO<br>TRABALHO III<br>(MARIA)</td>
+                                          <td>FÍSICA<br>(MARIA)</td>
+                                          <td>LÍNGUA<br>PORTUGUESA<br>(MARIA)</td>
+                                          <td>GEOGRAFIA<br>(MARIA)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>4</td>
+                                          <td>9:46 às <br>10:36</td>
+                                          <td>LÍNGUA EST.<br>MODERNA-<br>INGLÊS<br>(MARIA)</td>
+                                          <td>BIOLOGIA<br>(MARIA)</td>
+                                          <td>MATEMÁTICA<br>(MARIA)</td>
+                                          <td>GEOGRAFIA<br>(MARIA)</td>
+                                          <td>FILOSOFIA<br>(MARIA)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>5</td>
+                                          <td>10:37 às <br> 11:27</td>
+                                          <td>ENSINO<br>RELIGIOSO<br>(MARIA)</td>
+                                          <td>QUÍMICA<br>(MARIA)</td>
+                                          <td>SOCIOLOGIA<br>(MARIA)</td>
+                                          <td>MATEMÁTICA<br>(MARIA)</td>
+                                          <td>LÍNGUA EST.<br>MODERNA-<br>ESPANHOL<br>(MARIA)</td>
+                                      </tr>
+                                      <tr>
+                                          <td>6</td>
+                                          <td>11:28 às <br>12:15</td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                      </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-2"></div>
+          </div>
+          <div class="row rowhorarios"></div>
+          <footer>
+            <section class="sectionfooter">
+              <h4>Colégio Estadual Povoado Mato Seco</h4>
+              <p>Diretora: Andrea Lopes Cavalcante Mendes</p>
+              <p>Professores auxiliares:</p>
+              <p>Desenvolvimento - Andrey Lopes Cavalcante Mendes</p>
+            </section>
+          </footer>
+      </div>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

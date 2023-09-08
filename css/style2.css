@@ -1,0 +1,114 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbaredit{
+    background:transparent rgba(0,0,0,056);
+    color: darkgreen;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+}
+
+.pactive{
+    color: rgb(0, 171, 0);
+    font-size: 1.3em;
+}
+.strongedit{
+    color:rgb(1, 84, 1);
+    font-size: 1.3em;
+}
+.rowhorarios{
+    margin-top: 100px;
+}
+.badedit{
+    background: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.section1{
+    display: flex;
+    background: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.7em;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td:hover, th:hover {
+    background-color: black;
+    color: white;
+}
+
+.rowimgs img{
+    width: 275px;
+    margin: 10px;
+}
+
+.rowcalen{
+    margin-top: 30px;
+}
+.sectionfooter{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.30);
+    text-align: center;
+}
+.rowfooter{
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 1px;
+}
+.card-img-top{
+    width: 300px;
+}
+.card{
+    display: flex;
+    justify-items: center;
+    width: 25rem;
+}
+.acordeonturmas{
+    font-size: 0.9em;
+}
+.card3serie{
+    margin-left: 28px;
+}
+.psectiontitle{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.psectionbody{
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.psectionli{
+    font-size: 1.1em;
+}
+.carouseledit{
+    margin-bottom: 20px;
+}

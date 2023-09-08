@@ -1,0 +1,81 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbaredit{
+    background:transparent rgba(0,0,0,056);
+    color: darkgreen;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+}
+
+.pactive{
+    color: rgb(0, 171, 0);
+    font-size: 1.3em;
+}
+.strongedit{
+    color:rgb(1, 84, 1);
+    font-size: 1.3em;
+}
+
+.conteudo{
+    height: 220px;
+}
+
+.cardedit{
+    background: transparent;
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.carousel{
+    margin-bottom: 50px;
+}
+
+
+.badedit{
+    background: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.section1{
+    text-align: center;
+    background: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.titulosection{
+    font-size: 1.5em;
+}
+.rowhorarios{
+    margin-top: 100px;
+}
+
+.sectionfooter{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.30);
+    text-align: center;
+}
+.rowfooter{
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 1px;
+}
+.notaideb{
+    width: 400px;
+    padding: 5px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}

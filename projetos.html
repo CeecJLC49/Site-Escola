@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>CEPMS - Projetos</title>
+
+    <style>
+         body::before {
+        content: "";
+        position: fixed; /* Fixar o pseudo-elemento */
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1; /* Posicionar atrás do conteúdo */
+
+        background-image:url('imgs/colegio cepms.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+    </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/lococolegio.png">
+</head>
+<body>
+    <div class="conteiner-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg fixed-top navbaredit">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><strong><img src="imgs/lococolegio.png" alt="Colegio Estadual Povoado Mato Seco" width="50px"></strong></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html"><strong class="strongedit">Inicio</strong></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"><strong class="pactive">Projetos</strong></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="calendario.html"><strong class="strongedit">Calendário</strong></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="turmas.html"><strong class="strongedit">Turmas</strong></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="horarios.html"><strong class="strongedit">Horários</strong></a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                </nav>
+        </div>
+        <div class="row rowhorarios">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <h1><span class="badge badedit">Projetos</span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <section class="section1">
+                    <div class="row justify-content-center text-center">
+                        <p class="psectiontitle">Nome do projeto...</p>
+                        <!--Capa do projeto-->
+                        <img src="imgs/ex1.jpeg" alt="Exemplo" style="width: 400px;">
+                        <!--Descrição do projeto-->
+                        <p class="psectionbody">Descrição...</p>
+                        <!--Carrossel de imagens do projeto max="3"-->
+                        <div id="carouselExample" class="carousel slide carouseledit">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="imgs/ex1.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imgs/ex2.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imgs/ex3.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                          <p>
+                            <ul class="psectionli">
+                                <li>Objetivo 1...</li>
+                                <li>Objetivo 2...</li>
+                                <li>Objetivo 3...</li>
+                            </ul>
+                          </p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <section class="section1">
+                    <div class="row justify-content-center text-center">
+                        <p class="psectiontitle">Nome do projeto...</p>
+                        <!--Capa do projeto-->
+                        <img src="imgs/ex1.jpeg" alt="Exemplo" style="width: 400px;">
+                        <!--Descrição do projeto-->
+                        <p class="psectionbody">Descrição...</p>
+                        <!--Carrossel de imagens do projeto max="3"-->
+                        <div id="carouselExample1" class="carousel slide carouseledit">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="imgs/ex1.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imgs/ex2.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imgs/ex3.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                          <p>
+                            <ul class="psectionli">
+                                <li>Objetivo 1...</li>
+                                <li>Objetivo 2...</li>
+                                <li>Objetivo 3...</li>
+                            </ul>
+                          </p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <section class="section1">
+                    <div class="row justify-content-center text-center">
+                        <p class="psectiontitle">Nome do projeto...</p>
+                        <!--Capa do projeto-->
+                        <img src="imgs/ex1.jpeg" alt="Exemplo" style="width: 400px;">
+                        <!--Descrição do projeto-->
+                        <p class="psectionbody">Descrição...</p>
+                        <!--Carrossel de imagens do projeto max="3"-->
+                        <div id="carouselExample2" class="carousel slide carouseledit">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="imgs/ex1.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imgs/ex2.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imgs/ex3.jpeg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                          <p>
+                            <ul class="psectionli">
+                                <li>Objetivo 1...</li>
+                                <li>Objetivo 2...</li>
+                                <li>Objetivo 3...</li>
+                            </ul>
+                          </p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+        
+        <div class="row rowhorarios"></div>
+        <footer>
+            <section class="sectionfooter">
+              <h4>Colégio Estadual Povoado Mato Seco</h4>
+              <p>Diretora: Andrea Lopes Cavalcante Mendes</p>
+              <p>Professores auxiliares:</p>
+              <p>Desenvolvimento - Andrey Lopes Cavalcante Mendes</p>
+            </section>
+        </footer>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

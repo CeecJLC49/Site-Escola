@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>CEPMS - Calendário</title>
+
+    <style>
+         body::before {
+        content: "";
+        position: fixed; /* Fixar o pseudo-elemento */
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1; /* Posicionar atrás do conteúdo */
+
+        background-image:url('imgs/colegio cepms.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+    </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/lococolegio.png">
+</head>
+<body>
+    <div class="conteiner-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg fixed-top navbaredit">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><strong><img src="imgs/lococolegio.png" alt="Colegio Estadual Povoado Mato Seco" width="50px"></strong></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html"><strong class="strongedit">Inicio</strong></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="projetos.html"><strong class="strongedit">Projetos</strong></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"><strong class="pactive">Calendário</strong></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="turmas.html"><strong class="strongedit">Turmas</strong></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="horarios.html"><strong class="strongedit">Horários</strong></a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                </nav>
+        </div>
+        <div class="row rowhorarios">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <h1><span class="badge badedit">Calendário Escolar 2023</span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <section class="section1">
+                    <div class="row rowimgs">
+                        <img src="imgs/jan2023.PNG" alt="Janeiro" width="400px">
+                        <img src="imgs/fev2023.PNG" alt="Fevereiro" width="400px">
+                        <img src="imgs/mar2023.PNG" alt="Março" width="400px">
+                        <img src="imgs/abr2023.PNG" alt="Abril" width="400px">
+                        <img src="imgs/mai2023.PNG" alt="Maio" width="400px">
+                        <img src="imgs/jun2023.PNG" alt="Junho" width="400px">
+                        <img src="imgs/jul2023.PNG" alt="Julho" width="400px">
+                        <img src="imgs/ago2023.PNG" alt="Agosto" width="400px">
+                        <img src="imgs/set2023.PNG" alt="Setembro" width="400px">
+                        <img src="imgs/out2023.PNG" alt="Outubro" width="400px">
+                        <img src="imgs/nov2023.PNG" alt="Novembro" width="400px">
+                        <img src="imgs/dez2023.PNG" alt="Dezembro" width="400px">
+                    </div>
+                </section>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+        <div class="row rowcalen">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <h1><span class="badge badedit">Legenda</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <section class="section1">
+                        <div class="row">
+                            <img src="imgs/leg1.PNG" alt="Legenda 1">
+                            <img src="imgs/leg2.PNG" alt="Legenda 2">
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+        <div class="row rowhorarios"></div>
+        <footer>
+            <section class="sectionfooter">
+              <h4>Colégio Estadual Povoado Mato Seco</h4>
+              <p>Diretora: Andrea Lopes Cavalcante Mendes</p>
+              <p>Professores auxiliares:</p>
+              <p>Desenvolvimento - Andrey Lopes Cavalcante Mendes</p>
+            </section>
+        </footer>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
