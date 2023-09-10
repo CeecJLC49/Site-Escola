@@ -79,3 +79,6 @@ p{
     background: transparent;
     backdrop-filter: blur(5px);
 }
+.phistoria{
+    text-align: justify;
+}
